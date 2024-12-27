@@ -2,7 +2,7 @@ import requests
 
 URL = 'https://api.pokemonbattle.ru/v2'
 TOKEN = '8f895f1e2bd16919617034cc761a79bb'
-HEADER = {'trainer_token' : '8f895f1e2bd16919617034cc761a79bb'}
+HEADER = {'trainer_token' : TOKEN}
 body_create = {
     "name": "Первый",
     "photo_id": 808
